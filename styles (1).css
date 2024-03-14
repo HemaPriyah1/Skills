@@ -1,0 +1,41 @@
+body, h1, h2, p {
+background-color:pink;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: verdana, sans-serif;
+}
+header {
+    background-color:skyblue;
+    color: #fff;
+    padding: 0.1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color:purple;
+}
+.section {
+    padding: 1.9rem;
+}
+footer {
+    background-color: teal;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-bottom: 50px;
+    }
+}
